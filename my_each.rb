@@ -4,7 +4,6 @@ def my_each(string)
   while string.length > i
     yield(string[i])
     i += 1
-    end
-    string
   end
+    string
 end
